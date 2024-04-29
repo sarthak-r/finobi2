@@ -10,6 +10,7 @@ import streamlit as st
 """
 
 super_bal = st.slider("What is your current super balance?", 1, 1000000, 250000)
+retirement_age = st.slider("Retirement age", 40, 70, 60)
 num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
 num_turns = st.slider("Number of turns in spiral", 1, 300, 31)
 
