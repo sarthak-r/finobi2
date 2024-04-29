@@ -19,7 +19,7 @@ def calculate_balance(current_age, super_bal, annual_contribution, retirement_ag
 st.title("Retirement Cashflow Model")
 
 current_age = st.slider("Current age", 20, 80, 30)
-super_bal = st.slider("Current super balance", 1, 1000000, 250000)
+super_bal = st.slider("Current super balance", 100, 1000000, 250000)
 annual_contribution = st.slider("Annual contribution to super", 0, 50000, 10000)
 retirement_age = st.slider("Retirement age", current_age + 1, 80, 60)
 roi = st.slider("Return percentage", 0, 25, 7)
