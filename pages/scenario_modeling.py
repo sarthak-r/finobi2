@@ -1,2 +1,2 @@
 
-Helloooowowpowowowowow
+print("Helloooowowpowowowowow")
